@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gabi/Documents/ecole/sepc/allocateur_memoire/src/mem.h
+
+/home/gabi/Documents/ecole/sepc/allocateur_memoire/tests/mempymodule.c
+Python.h
+-
+../src/mem.h
+/home/gabi/Documents/ecole/sepc/allocateur_memoire/src/mem.h
+

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gabi/Documents/ecole/sepc/allocateur_memoire/src/mem.h
+
+/home/gabi/Documents/ecole/sepc/allocateur_memoire/src/mem_internals.h
+stdio.h
+-
+stdlib.h
+-
+
+/home/gabi/Documents/ecole/sepc/allocateur_memoire/src/mem_medium.c
+stdint.h
+-
+assert.h
+-
+mem.h
+/home/gabi/Documents/ecole/sepc/allocateur_memoire/src/mem.h
+mem_internals.h
+/home/gabi/Documents/ecole/sepc/allocateur_memoire/src/mem_internals.h
+
